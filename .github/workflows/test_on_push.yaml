@@ -17,5 +17,3 @@ jobs:
         architecture: 'x64'
     - name: Install requirements
       run: pip install -r requirements.txt
-    - name: Tests report
-      run: coverage report
